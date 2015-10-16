@@ -19,11 +19,12 @@ class EventViewController: UIViewController {
         var y = CGFloat(10)
         var y_start = CGFloat(119.0)
         var x_start = CGFloat(10.0)
+        var count = 0
         
-        for var i = 0; i < 3; ++i{
+        for var i = count; i < 8; ++i,++count{
             
             var circle = UIView(frame: CGRectMake(x_start, y_start, square_x, square_x))
-            var label = UILabel(frame: CGRectMake(x_start, y_start+40, 50, 21))
+            var label = UILabel(frame: CGRectMake(x_start+18, y_start+110, 80, 21))
             circle.backgroundColor = UIColor.redColor()
             circle.layer.cornerRadius = square_x/2.0;
             
@@ -35,6 +36,16 @@ class EventViewController: UIViewController {
             label.textAlignment = NSTextAlignment.Center
             label.text = "I'am a test label"
             self.view.addSubview(label)
+            
+            
+            
+            if count == 2 {
+                y_start = y_start+square_x+21+y
+                x_start = CGFloat(10.0)
+                count = 0
+            }
+            
+            
             
         }
 
