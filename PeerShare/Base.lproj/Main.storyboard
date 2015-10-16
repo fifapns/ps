@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Events-->
         <scene sceneID="GpB-er-7rT">
             <objects>
                 <viewController id="7K1-Gm-s17" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="eJK-Ce-can"/>
+                    <tabBarItem key="tabBarItem" title="Events" id="eJK-Ce-can"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9O-66-pwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1120" y="52"/>
+            <point key="canvasLocation" x="-604.5" y="39.5"/>
         </scene>
-        <!--Item 1-->
+        <!--Record-->
         <scene sceneID="3cv-mb-NdR">
             <objects>
                 <viewController id="MHB-Hp-hxx" sceneMemberID="viewController">
@@ -36,11 +36,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="3rf-md-NTH"/>
+                    <tabBarItem key="tabBarItem" title="Record" id="3rf-md-NTH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hl3-CK-uCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-484" y="52"/>
+            <point key="canvasLocation" x="-1976.5" y="-24.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LaW-z8-Hke">
@@ -62,7 +62,7 @@
             </objects>
             <point key="canvasLocation" x="-592" y="-1092"/>
         </scene>
-        <!--Item 1-->
+        <!--Profile-->
         <scene sceneID="FDS-NW-WcW">
             <objects>
                 <viewController id="bFO-ki-1pP" sceneMemberID="viewController">
@@ -75,11 +75,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="NMf-w4-HiV"/>
+                    <tabBarItem key="tabBarItem" title="Profile" id="NMf-w4-HiV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IiP-4V-mvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="152" y="52"/>
+            <point key="canvasLocation" x="1447.5" y="-4.5"/>
         </scene>
     </scenes>
 </document>
