@@ -43,7 +43,7 @@ class GroupDetailViewController: UIViewController,UITableViewDelegate,UITableVie
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 6
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -51,8 +51,15 @@ class GroupDetailViewController: UIViewController,UITableViewDelegate,UITableVie
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell!
         
         cell.textLabel?.text = "PEACE"
+        
         cell.imageView?.image = UIImage(named: "testimage")
-        cell.detailTextLabel?.text = "Test"
+        cell.imageView?.layer.cornerRadius = CGFloat((cell.imageView?.frame.width)!/2.0)
+        cell.imageView?.clipsToBounds = true
+        //cell.imageView?.layer.cornerRadius = cell.imageView!.frame.width/2.0
+        //cell.imageView?.clipsToBounds = true
+        
+        
+        cell.detailTextLabel?.text = "100"
        
         
     
