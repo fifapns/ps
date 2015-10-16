@@ -18,6 +18,9 @@
 		466B7EC91BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		466B7ECA1BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		466B7ECB1BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		466B7ECD1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7ECC1BD15D1A0002158C /* GroupDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		466B7ECE1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7ECC1BD15D1A0002158C /* GroupDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		466B7ECF1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7ECC1BD15D1A0002158C /* GroupDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		1ACEAB6A1BD11CCA00B5E443 /* PeerShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerShareUITests.swift; sourceTree = "<group>"; };
 		1ACEAB6C1BD11CCA00B5E443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466B7EC81BD126970002158C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		466B7ECC1BD15D1A0002158C /* GroupDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				1ACEAB561BD11CCA00B5E443 /* Info.plist */,
 				1ACEAB4E1BD11CCA00B5E443 /* PeerShare.xcdatamodeld */,
 				466B7EC81BD126970002158C /* EventViewController.swift */,
+				466B7ECC1BD15D1A0002158C /* GroupDetailViewController.swift */,
 			);
 			path = PeerShare;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				466B7EC91BD126970002158C /* EventViewController.swift in Sources */,
 				1ACEAB481BD11CCA00B5E443 /* AppDelegate.swift in Sources */,
 				1ACEAB501BD11CCA00B5E443 /* PeerShare.xcdatamodeld in Sources */,
+				466B7ECD1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466B7ECE1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */,
 				1ACEAB601BD11CCA00B5E443 /* PeerShareTests.swift in Sources */,
 				466B7ECA1BD126970002158C /* EventViewController.swift in Sources */,
 			);
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466B7ECF1BD15D1A0002158C /* GroupDetailViewController.swift in Sources */,
 				1ACEAB6B1BD11CCA00B5E443 /* PeerShareUITests.swift in Sources */,
 				466B7ECB1BD126970002158C /* EventViewController.swift in Sources */,
 			);
