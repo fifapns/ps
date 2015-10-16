@@ -15,6 +15,9 @@
 		1ACEAB551BD11CCA00B5E443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACEAB531BD11CCA00B5E443 /* LaunchScreen.storyboard */; };
 		1ACEAB601BD11CCA00B5E443 /* PeerShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACEAB5F1BD11CCA00B5E443 /* PeerShareTests.swift */; };
 		1ACEAB6B1BD11CCA00B5E443 /* PeerShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACEAB6A1BD11CCA00B5E443 /* PeerShareUITests.swift */; };
+		466B7EC91BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		466B7ECA1BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		466B7ECB1BD126970002158C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B7EC81BD126970002158C /* EventViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		1ACEAB661BD11CCA00B5E443 /* PeerShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACEAB6A1BD11CCA00B5E443 /* PeerShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerShareUITests.swift; sourceTree = "<group>"; };
 		1ACEAB6C1BD11CCA00B5E443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466B7EC81BD126970002158C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				1ACEAB531BD11CCA00B5E443 /* LaunchScreen.storyboard */,
 				1ACEAB561BD11CCA00B5E443 /* Info.plist */,
 				1ACEAB4E1BD11CCA00B5E443 /* PeerShare.xcdatamodeld */,
+				466B7EC81BD126970002158C /* EventViewController.swift */,
 			);
 			path = PeerShare;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACEAB4A1BD11CCA00B5E443 /* ViewController.swift in Sources */,
+				466B7EC91BD126970002158C /* EventViewController.swift in Sources */,
 				1ACEAB481BD11CCA00B5E443 /* AppDelegate.swift in Sources */,
 				1ACEAB501BD11CCA00B5E443 /* PeerShare.xcdatamodeld in Sources */,
 			);
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACEAB601BD11CCA00B5E443 /* PeerShareTests.swift in Sources */,
+				466B7ECA1BD126970002158C /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACEAB6B1BD11CCA00B5E443 /* PeerShareUITests.swift in Sources */,
+				466B7ECB1BD126970002158C /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				1ACEAB711BD11CCA00B5E443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ACEAB721BD11CCA00B5E443 /* Build configuration list for PBXNativeTarget "PeerShareTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				1ACEAB741BD11CCA00B5E443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ACEAB751BD11CCA00B5E443 /* Build configuration list for PBXNativeTarget "PeerShareUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				1ACEAB771BD11CCA00B5E443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
